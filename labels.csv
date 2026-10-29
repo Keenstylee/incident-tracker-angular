@@ -1,0 +1,19 @@
+name,description,color
+tipo: bug,Error o falla,d73a4a
+tipo: mejora,Mejora funcional,a2eeef
+tipo: tarea,Tarea técnica,0075ca
+tipo: documentación,Documentación,cfd3d7
+prioridad: crítica,Atención inmediata,b60205
+prioridad: alta,Alta prioridad,d93f0b
+prioridad: media,Prioridad media,fbca04
+prioridad: baja,Baja prioridad,0e8a16
+modulo: dashboard,Módulo dashboard,1d76db
+modulo: formulario,Módulo formulario,5319e7
+modulo: lista,Módulo lista,0052cc
+modulo: detalle,Módulo detalle,006b75
+modulo: rutas,Módulo rutas,bfd4f2
+modulo: servicio,Módulo servicio,bfdadc
+modulo: interfaz,Módulo interfaz,c5def5
+estado: nuevo,Recién reportado,ededed
+estado: en proceso,En atención,fbca04
+estado: resuelto,Resuelto,0e8a16

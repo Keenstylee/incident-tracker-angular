@@ -1,0 +1,19 @@
+<h2>Registrar incidente</h2>
+<form [formGroup]="form" (ngSubmit)="guardar()">
+  <label>Título:</label>
+  <input formControlName="titulo" />
+
+  <label>Descripción:</label>
+  <textarea formControlName="descripcion"></textarea>
+
+  <label>Prioridad:</label>
+  <select formControlName="prioridad">
+    <option value="">Seleccione</option>
+    <option>Baja</option>
+    <option>Media</option>
+    <option>Alta</option>
+    <option>Crítica</option>
+  </select>
+
+  <button type="submit">Guardar</button>
+</form>
